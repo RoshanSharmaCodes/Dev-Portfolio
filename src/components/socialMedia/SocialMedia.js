@@ -56,6 +56,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+        {socialMediaLinks.gitlab ? (
+        <a
+          href={socialMediaLinks.gitlab}
+          className="icon-button gitlab"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-gitlab"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.facebook ? (
         <a
           href={socialMediaLinks.facebook}

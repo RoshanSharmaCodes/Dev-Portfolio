@@ -23,25 +23,22 @@ const greeting = {
   username: "RoshanCodes_",
   title: "Hey, I'm Roshan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web Applications with JavaScript / ReactJS / NextJS / NodeJS / and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/15zsJ8iDf54P8-GqKC0z9VwUbN9_N_yVl/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/RoshanSharmaCodes/",
+  linkedin: "https://www.linkedin.com/in/roshancodes/",
+  gmail: "roshan.rks2812000@gmail.com",
+  hashnode: "https://hashnode.com/@roshansharmacodes",
+  leetcode: "https://leetcode.com/RoshanCodes_/",
+  instagram: "https://www.instagram.com/roshan.codes/",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -112,23 +109,31 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Integral University",
+      logo: require("./assets/images/Integral.png"),
+      subHeader: "Master in Computer Application | CGPA 8.2",
+      duration: "Batch 2020 - 2022",
+      desc: "Have Developed Web Applications Like :-",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Invoice Generator for Inventory & Store Management",
+        "Hotel Reservation Application"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Lucknow University | CGPA 7",
+      logo: require("./assets/images/Lucknow.jpg"),
+      subHeader: "Bachelors in Computer Application",
+      duration: "Batch 2017 - 2020",
+      desc: "Have Developed Web Applications Like :-",
+      descBullets: ["Local Mart Cart App"]
+    },
+    {
+      schoolName: "Kendriya Vidyalaya IIM | CGPA 8",
+      logo: require("./assets/images/KV.png"),
+      subHeader: "Majors in Physics, Chemistry & Maths",
+      duration: "Batch 2015 - 2017",
+      desc: "",
+      descBullets: []
     }
   ]
 };
@@ -298,16 +303,40 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://roshanstack.hashnode.dev/top-7-aws-services-for-developers",
+      title: "Top 7 AWS Services for Developers",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Amazon Web Services (AWS) stands out with its extensive range of services tailored to empower developers. In this article, we will delve into the top 7 AWS services that software developers should become familiar with"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://roshanstack.hashnode.dev/writing-shorter-optimize-code-in-javascript",
+      title: "Writing Shorter & Optimize Code in JavaScript",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Writing concise and efficient code is crucial for improving readability, performance, and maintainability. One way to achieve this is by leveraging shorthand expressions, which allow you to write shorter code while maintaining clarity and efficiency."
+    },
+    {
+      url: "https://roshanstack.hashnode.dev/how-to-dockerize-a-reactjs-application-a-step-by-step-guide",
+      title: "How to Dockerize a React.js Application: A Step-by-Step Guide",
+      description:
+        "Docker has become a popular choice for containerizing applications, and it can greatly simplify the deployment and distribution process. If you have a React.js application and want to containerize it using Docker, this step-by-step guide will walk you through the process."
+    },
+    {
+      url: "https://roshanstack.hashnode.dev/mastering-javascript-write-code-like-senior-developers",
+      title: "Mastering JavaScript: Write Code Like Senior Developers",
+      description:
+        "As a senior JavaScript developer, it is essential to not only write code that functions correctly but also to ensure that it is maintainable, efficient, and secure. By following best practices and adhering to established code conventions, you can enhance code readability, reduce errors, and optimize performance."
+    },
+    {
+      url: "https://roshanstack.hashnode.dev/dockerizing-rest-api-using-nodejs",
+      title: "Dockerizing REST API using NodeJS",
+      description:
+        "Docker has revolutionized the way we develop, deploy, and manage applications. It provides a lightweight and portable containerization platform that simplifies the process of packaging and running applications in isolated environments."
+    },
+    {
+      url: "https://roshanstack.hashnode.dev/securing-web-applications-best-practices",
+      title: "Securing Web Applications : Best Practices",
+      description:
+        "Web applications have become an integral part of our lives, offering convenience and accessibility. However, the increasing dependence on web applications has also led to a rise in online attacks targeting their vulnerabilities."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -316,9 +345,9 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Testimonial",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I know we all need a good word & feedback 😅"
   ),
 
   talks: [
