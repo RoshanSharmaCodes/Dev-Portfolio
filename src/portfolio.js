@@ -165,29 +165,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Jr. Software Engineer",
+      company: "Analyze Infotech",
+      companylogo: require("./assets/images/Analyze.jpg"),
+      date: "Feburary 2021 – March 2022",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed 2 Operational websites for oraganizations showcasing their business and capturing leads.",
+        "Worked on the optimization of customer facing live websites, with the help of GTMatrix.",
+        "Have contributed in internal component libraries, by creating responsive reusable components."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Sr. Software Engineer",
+      company: "DePronto Infotech",
+      companylogo: require("./assets/images/DePronto.jpg"),
+      date: "April 2022 – Present",
+      descBullets: [
+        "Developed 3 customer-facing applications for ICICI Prudential & HDFC Life with React, NodeJS, and AEM with 2 million Active Users.",
+        "Contributed in the R&D of Product enhancement and optimization, and also to streamline the process of CI/CD Pipelines.",
+        "Have contributed in the optimizations of one of the best selling insurance product in India. (Estimate of 30%)",
+        "Engineered a automation script that streamlines the process of creating UAT and Production ready builds.",
+        "Took active part in Security Operations for client's infrastructure & various security migration projects to safeguard vulnerability issues.",
+        "Lead the recurring IT Disaster Recovery Routine with the team of 4 Developers."
+      ]
     }
   ]
 };
@@ -243,10 +243,10 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Top 50 Scholar Student in IFERP",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Institute For Educational Research and Publication (IFERP)",
+      image: require("./assets/images/IFERP.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -254,34 +254,34 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
         {
-          name: "Award Letter",
+          name: "Speaker",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
         },
         {
-          name: "Google Code-in Blog",
+          name: "Mentorship",
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Scholarship by CETI",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "CETI starts with objective of coaching and mentoring deserving students.",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Mentorship by Google SDE",
+          url: "https://www.cetigroup.org/mentors/#lg=1&slide=0"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Hacker Rank",
+      subtitle: "Completed my JavaScript Certification from Hacker Rank",
+      image: require("./assets/images/HackerRank.png"),
+      imageAlt: "Hacker Rank JavaScript",
       footerLink: [
         {name: "Certification", url: ""},
         {
