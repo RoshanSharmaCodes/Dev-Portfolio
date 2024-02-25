@@ -5,81 +5,53 @@ export default function TalkCard({talkDetails}) {
 
   const carousalItems = [
     {
-      name: "Roshan Sharma",
-      title: "SDE-1",
-      company: "Depronto Infotech",
-      profilePic: "",
-      testimonial: "He is very good",
+      name: "Nischal Raman",
+      title: "Product Manager",
+      company: "DePronto Infotech",
+      profilePic: "./images/Nischal.jpg",
+      testimonial: "Leaving a Legacy, Extremely happy with the compliments received from the IPRU team Vice President. We are all grateful to 'Protection Squad' for their tireless efforts in completing a challenging project in a short period of time.",
     }, 
     {
-      name: "Kartik Verma",
+      name: "Akshay Bhopani",
       title: "SDE-2",
-      company: "Google SDE",
-      profilePic: "",
-      testimonial: "He is Excellent",
+      company: "DePronto Infotech",
+      profilePic: "./images/Akshay.jpg",
+      testimonial: "Congratulations on the successful delivery of IPS Rate Changes that went Live yesterday. Got feedback from the client for exceptional Bug-Free Delivery, Late Night Support up to 4 AM (almost Morning) from the Protection Team. There were a lot of Logical Changes and iterations from the client still the delivery was smooth. Thank you for such Amazing Efforts and Dedication. #CreatingStandards",
     },
     {
-      name: "Mukul Gupta",
-      title: "SDE-1",
+      name: "Binit Jha",
+      title: "Team Leader",
       company: "DePronto Infotech",
-      profilePic: "",
-      testimonial: "He is Outstanding",
+      profilePic: "./images/Binit.jpg",
+      testimonial: "Above & Beyond, I would like to praise the Roshan & entire protection squad for delivering a critical project in crunched timelines and multiple challenges with utmost dedication and commitment.The efforts are truly appreciated",
     },
     {
-      name: "Mukul Gupta",
-      title: "SDE-1",
-      company: "DePronto Infotech",
-      profilePic: "",
-      testimonial: "He is Outstanding",
+      name: "Mohd. Zuber",
+      title: "SDE-II",
+      company: "Google",
+      profilePic: "./images/Zuber.jpg",
+      testimonial: "It was a privilege to manage Roshan, whose outstanding proficiency in React and JavaScript played a pivotal role in the success of our projects. Roshan's in-depth expertise in React JS was instrumental in driving innovation and delivering high-quality solutions. A dedicated and talented individual, Roshan consistently demonstrated efficiency and creativity in handling complex tasks. I wholeheartedly recommend Roshan for any role demanding expertise in React and JavaScript – an asset to any organization or team.",
     },
     {
-      name: "Mukul Gupta",
-      title: "SDE-1",
-      company: "DePronto Infotech",
-      profilePic: "",
-      testimonial: "He is Outstanding",
+      name: "Sushrut Mishra",
+      title: "CEO",
+      company: "VCMediaLabs",
+      profilePic: "./images/Sushrut.jpg",
+      testimonial: "I would highly recommend Roshan for any role that requires to solve any complex problem be it frontend or backend. Thanks Roshan for sticking with us and making this project possible.",
     },
     {
-      name: "Mukul Gupta",
-      title: "SDE-1",
-      company: "DePronto Infotech",
-      profilePic: "",
-      testimonial: "He is Outstanding",
+      name: "Kewal Rathod",
+      title: "Team Lead",
+      company: "Unico",
+      profilePic: "./images/Kewal.jpg",
+      testimonial: "Exceptional Skills, I would like to praise Kaval and Roshan for their contribution to the recent projects. Your unbeatable commitment & problem-solving attitude helped deliver the highest-priority  & most delicate projects in challenging timelines. Khabib of Team Protection",
     },
     {
-      name: "Mukul Gupta",
+      name: "Aniket Rai",
       title: "SDE-1",
-      company: "DePronto Infotech",
-      profilePic: "",
-      testimonial: "He is Outstanding",
-    },
-    {
-      name: "Mukul Gupta",
-      title: "SDE-1",
-      company: "DePronto Infotech",
-      profilePic: "",
-      testimonial: "He is Outstanding",
-    },
-    {
-      name: "Mukul Gupta",
-      title: "SDE-1",
-      company: "DePronto Infotech",
-      profilePic: "",
-      testimonial: "He is Outstanding",
-    },
-    {
-      name: "Mukul Gupta",
-      title: "SDE-1",
-      company: "DePronto Infotech",
-      profilePic: "",
-      testimonial: "He is Outstanding",
-    },
-    {
-      name: "Mukul Gupta",
-      title: "SDE-1",
-      company: "DePronto Infotech",
-      profilePic: "",
-      testimonial: "He is Outstanding",
+      company: "Gupshup",
+      profilePic: "./images/Aniket.jpg",
+      testimonial: "I would like to praise Roshan and Suraj for showing exceptional team skills by coordinating between UI and Backend team and resolving the major issues by themselves, making the project move forward by catering to the dynamic changes and issues rapidly. Keep up the good work. ✨✨",
     },
   ]
   
@@ -99,7 +71,7 @@ export default function TalkCard({talkDetails}) {
           }
         >
         <div className="profilePicture">
-          
+          <img src={item.profilePic} alt={item.name} className="profilePic"/>
         </div>
         <div className="cardHeader">
           <div className="cardHeaderLeft"></div>

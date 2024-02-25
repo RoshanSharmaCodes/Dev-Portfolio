@@ -167,7 +167,7 @@ const workExperiences = {
     {
       role: "Jr. Software Engineer",
       company: "Analyze Infotech",
-      companylogo: require("./assets/images/Analyze.jpg"),
+      companylogo: require("./assets/images/Analyze.png"),
       date: "Feburary 2021 – March 2022",
       descBullets: [
         "Developed 2 Operational websites for oraganizations showcasing their business and capturing leads.",

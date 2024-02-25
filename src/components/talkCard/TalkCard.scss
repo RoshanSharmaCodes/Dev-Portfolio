@@ -74,6 +74,7 @@
   top: -50px;
   left: 30px;
   box-shadow: 2px 3px 24px 0px rgba(255,255,255,1);
+  object-fit: cover;
 }
 
 .cardHeader{
@@ -102,7 +103,16 @@
   border: 2px double #2d3851;
   font-size: 15px;
   padding: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
+
+.profilePic{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
 
 /* Media Query */
 @media (max-width: 1380px) {
