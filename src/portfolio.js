@@ -168,7 +168,7 @@ const workExperiences = {
       role: "Jr. Software Engineer",
       company: "Analyze Infotech",
       companylogo: require("./assets/images/Analyze.png"),
-      date: "Feburary 2021 – March 2022",
+      date: "Feb 2021 – March 2022",
       descBullets: [
         "Developed 2 Operational websites for oraganizations showcasing their business and capturing leads.",
         "Worked on the optimization of customer facing live websites, with the help of GTMatrix.",
@@ -180,6 +180,62 @@ const workExperiences = {
       company: "DePronto Infotech",
       companylogo: require("./assets/images/DePronto.jpg"),
       date: "April 2022 – Present",
+      descBullets: [
+        "Developed 3 customer-facing applications for ICICI Prudential & HDFC Life with React, NodeJS, and AEM with 2 million Active Users.",
+        "Contributed in the R&D of Product enhancement and optimization, and also to streamline the process of CI/CD Pipelines.",
+        "Have contributed in the optimizations of one of the best selling insurance product in India. (Estimate of 30%)",
+        "Engineered a automation script that streamlines the process of creating UAT and Production ready builds.",
+        "Took active part in Security Operations for client's infrastructure & various security migration projects to safeguard vulnerability issues.",
+        "Lead the recurring IT Disaster Recovery Routine with the team of 4 Developers."
+      ]
+    },
+    {
+      role: "Full Stack Developer",
+      company: "VCWebStudio",
+      companylogo: require("./assets/images/DePronto.jpg"),
+      date: "Aug 2023 – Sep 2023 (Contractual)",
+      descBullets: [
+        "Developed 3 customer-facing applications for ICICI Prudential & HDFC Life with React, NodeJS, and AEM with 2 million Active Users.",
+        "Contributed in the R&D of Product enhancement and optimization, and also to streamline the process of CI/CD Pipelines.",
+        "Have contributed in the optimizations of one of the best selling insurance product in India. (Estimate of 30%)",
+        "Engineered a automation script that streamlines the process of creating UAT and Production ready builds.",
+        "Took active part in Security Operations for client's infrastructure & various security migration projects to safeguard vulnerability issues.",
+        "Lead the recurring IT Disaster Recovery Routine with the team of 4 Developers."
+      ]
+    },
+    {
+      role: "Full Stack Developer",
+      company: "CodeMyApp",
+      companylogo: require("./assets/images/DePronto.jpg"),
+      date: "Jan 2024 – Mar 2024 (Contractual)",
+      descBullets: [
+        "Developed 3 customer-facing applications for ICICI Prudential & HDFC Life with React, NodeJS, and AEM with 2 million Active Users.",
+        "Contributed in the R&D of Product enhancement and optimization, and also to streamline the process of CI/CD Pipelines.",
+        "Have contributed in the optimizations of one of the best selling insurance product in India. (Estimate of 30%)",
+        "Engineered a automation script that streamlines the process of creating UAT and Production ready builds.",
+        "Took active part in Security Operations for client's infrastructure & various security migration projects to safeguard vulnerability issues.",
+        "Lead the recurring IT Disaster Recovery Routine with the team of 4 Developers."
+      ]
+    },
+    {
+      role: "Full Stack Developer",
+      company: "Aperture Gear Studio",
+      companylogo: require("./assets/images/DePronto.jpg"),
+      date: "Sep 2023 – Dec 2023 (Contractual)",
+      descBullets: [
+        "Developed 3 customer-facing applications for ICICI Prudential & HDFC Life with React, NodeJS, and AEM with 2 million Active Users.",
+        "Contributed in the R&D of Product enhancement and optimization, and also to streamline the process of CI/CD Pipelines.",
+        "Have contributed in the optimizations of one of the best selling insurance product in India. (Estimate of 30%)",
+        "Engineered a automation script that streamlines the process of creating UAT and Production ready builds.",
+        "Took active part in Security Operations for client's infrastructure & various security migration projects to safeguard vulnerability issues.",
+        "Lead the recurring IT Disaster Recovery Routine with the team of 4 Developers."
+      ]
+    },
+    {
+      role: "Full Stack Developer",
+      company: "W16 Service Center",
+      companylogo: require("./assets/images/DePronto.jpg"),
+      date: "Jan 2023 – Mar 2023 (Contractual)",
       descBullets: [
         "Developed 3 customer-facing applications for ICICI Prudential & HDFC Life with React, NodeJS, and AEM with 2 million Active Users.",
         "Contributed in the R&D of Product enhancement and optimization, and also to streamline the process of CI/CD Pipelines.",
