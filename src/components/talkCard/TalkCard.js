@@ -53,6 +53,13 @@ export default function TalkCard({talkDetails}) {
       profilePic: "./images/Aniket.jpg",
       testimonial: "I would like to praise Roshan and Suraj for showing exceptional team skills by coordinating between UI and Backend team and resolving the major issues by themselves, making the project move forward by catering to the dynamic changes and issues rapidly. Keep up the good work. ✨✨",
     },
+    {
+      name: "Mukul Gupta",
+      title: "Founde",
+      company: "CodeMyApp",
+      profilePic: "./images/Mukul.jpg",
+      testimonial: "I've worked closely with Roshan Sharma, and his web application development skills are outstanding. He consistently delivers innovative, efficient solutions and excels in both front-end and back-end development. [Your Name]'s ability to lead teams and enhance user experiences makes him highly recommended for any web development project.✨✨",
+    },
   ]
   
   
