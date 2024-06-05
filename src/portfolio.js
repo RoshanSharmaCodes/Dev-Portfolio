@@ -189,62 +189,6 @@ const workExperiences = {
         "Lead the recurring IT Disaster Recovery Routine with the team of 4 Developers."
       ]
     },
-    {
-      role: "Full Stack Developer",
-      company: "VCWebStudio",
-      companylogo: require("./assets/images/DePronto.jpg"),
-      date: "Aug 2023 – Sep 2023 (Contractual)",
-      descBullets: [
-        "Developed 3 customer-facing applications for ICICI Prudential & HDFC Life with React, NodeJS, and AEM with 2 million Active Users.",
-        "Contributed in the R&D of Product enhancement and optimization, and also to streamline the process of CI/CD Pipelines.",
-        "Have contributed in the optimizations of one of the best selling insurance product in India. (Estimate of 30%)",
-        "Engineered a automation script that streamlines the process of creating UAT and Production ready builds.",
-        "Took active part in Security Operations for client's infrastructure & various security migration projects to safeguard vulnerability issues.",
-        "Lead the recurring IT Disaster Recovery Routine with the team of 4 Developers."
-      ]
-    },
-    {
-      role: "Full Stack Developer",
-      company: "CodeMyApp",
-      companylogo: require("./assets/images/DePronto.jpg"),
-      date: "Jan 2024 – Mar 2024 (Contractual)",
-      descBullets: [
-        "Developed 3 customer-facing applications for ICICI Prudential & HDFC Life with React, NodeJS, and AEM with 2 million Active Users.",
-        "Contributed in the R&D of Product enhancement and optimization, and also to streamline the process of CI/CD Pipelines.",
-        "Have contributed in the optimizations of one of the best selling insurance product in India. (Estimate of 30%)",
-        "Engineered a automation script that streamlines the process of creating UAT and Production ready builds.",
-        "Took active part in Security Operations for client's infrastructure & various security migration projects to safeguard vulnerability issues.",
-        "Lead the recurring IT Disaster Recovery Routine with the team of 4 Developers."
-      ]
-    },
-    {
-      role: "Full Stack Developer",
-      company: "Aperture Gear Studio",
-      companylogo: require("./assets/images/DePronto.jpg"),
-      date: "Sep 2023 – Dec 2023 (Contractual)",
-      descBullets: [
-        "Developed 3 customer-facing applications for ICICI Prudential & HDFC Life with React, NodeJS, and AEM with 2 million Active Users.",
-        "Contributed in the R&D of Product enhancement and optimization, and also to streamline the process of CI/CD Pipelines.",
-        "Have contributed in the optimizations of one of the best selling insurance product in India. (Estimate of 30%)",
-        "Engineered a automation script that streamlines the process of creating UAT and Production ready builds.",
-        "Took active part in Security Operations for client's infrastructure & various security migration projects to safeguard vulnerability issues.",
-        "Lead the recurring IT Disaster Recovery Routine with the team of 4 Developers."
-      ]
-    },
-    {
-      role: "Full Stack Developer",
-      company: "W16 Service Center",
-      companylogo: require("./assets/images/DePronto.jpg"),
-      date: "Jan 2023 – Mar 2023 (Contractual)",
-      descBullets: [
-        "Developed 3 customer-facing applications for ICICI Prudential & HDFC Life with React, NodeJS, and AEM with 2 million Active Users.",
-        "Contributed in the R&D of Product enhancement and optimization, and also to streamline the process of CI/CD Pipelines.",
-        "Have contributed in the optimizations of one of the best selling insurance product in India. (Estimate of 30%)",
-        "Engineered a automation script that streamlines the process of creating UAT and Production ready builds.",
-        "Took active part in Security Operations for client's infrastructure & various security migration projects to safeguard vulnerability issues.",
-        "Lead the recurring IT Disaster Recovery Routine with the team of 4 Developers."
-      ]
-    }
   ]
 };
 
@@ -263,25 +207,58 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/ICICIC.jpg"),
-      projectName: "iProtect Smart",
-      projectDesc: "The Highest & Best Selling Product of ICICI Prudential",
+      image: require("./assets/images/skinocare.jpg"),
+      projectName: "Skinocare",
+      projectDesc: "E-Commerce Application that sells skin and hair care products.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://www.iciciprulife.com/term-insurance-plans/iprotect-smart-term-insurance-calculator.html?UID=1160"
+          url: "https://skinocare.co.in/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Chupps.jpg"),
+      projectName: "Chupps",
+      projectDesc: "E-Commerce Website that sells Corcs and Slippers.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.chupps.com/collections/sliders/?utm_source=GA&utm_medium=PPC&utm_campaign=SN-Brand&utm_source=Google&utm_medium=Neon&utm_campaign=+Sales+&gad_source=1&gclid=EAIaIQobChMI36LVubbEhgMVr61mAh1-TA1TEAAYASAAEgI8bfD_BwE"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Aperture.webp"),
+      projectName: "Apearture Gear Studio",
+      projectDesc: "A Photo shoot agency that provides you accessible link yo share your photos (Like G-Drive)",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.aperturegearstudio.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/vcwebstudio.png"),
+      projectName: "VCWebStudio",
+      projectDesc: "A Tech Venture that creates MVP's and Products for Startups.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.vcwebstudio.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/codemyapp.png"),
+      projectName: "CodeMyApp",
+      projectDesc: "Have Developed there website from scratch and have also build there Project Management Tool",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.codemyapp.tech/"
         }
       ]
     }
