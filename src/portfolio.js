@@ -261,6 +261,17 @@ const bigProjects = {
           url: "https://www.codemyapp.tech/"
         }
       ]
+    },
+    {
+      image: require("./assets/images/vcwebstudio.png"),
+      projectName: "VCAppLabs",
+      projectDesc: "Have Developed there website from scratch and have also build there Project Management Tool",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://vc-app-labs.vercel.app/"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
