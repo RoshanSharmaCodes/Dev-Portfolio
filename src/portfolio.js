@@ -272,8 +272,53 @@ const bigProjects = {
           url: "https://vc-app-labs.vercel.app/"
         }
       ]
+    },
+    {
+      image: require("./assets/images/invoice.png"),
+      projectName: "Invoice Generator",
+      projectDesc: "Have Developed there website from scratch and have also build there Project Management Tool",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://invoice-generator-woad.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/hotel.png"),
+      projectName: "Hotel Rental Website",
+      projectDesc: "Have Developed there website from scratch and have also build there Project Management Tool",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://hotel-reservation-alpha.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/chat.jpg"),
+      projectName: "Web Chat Application",
+      projectDesc: "Have Developed there website from scratch and have also build there Project Management Tool",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://chat-application-frontend-two.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/openai.jpg"),
+      projectName: "Open AI Image Generator",
+      projectDesc: "Have Developed there website from scratch and have also build there Project Management Tool",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://chat-application-frontend-two.vercel.app/"
+        }
+      ]
     }
   ],
+  
   display: true // Set false to hide this section, defaults to true
 };
 
