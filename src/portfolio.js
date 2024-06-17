@@ -219,6 +219,18 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/remotely.jpg"),
+      projectName: "Remotely Works",
+      projectDesc: "It is a Job Posting website, In which a user can login and can apply/post a job. It will automatically takes your data will create a resume for you.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://job-posting-woad.vercel.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/Chupps.jpg"),
       projectName: "Chupps",
       projectDesc: "E-Commerce Website that sells Corcs and Slippers.",
